@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B7223F62B9CA88D00983FE4 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7223F52B9CA88D00983FE4 /* DashboardView.swift */; };
+		8B7223F82B9CA89E00983FE4 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7223F72B9CA89E00983FE4 /* DetailsView.swift */; };
+		8B7223FB2B9CD1F300983FE4 /* SocialButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7223FA2B9CD1F300983FE4 /* SocialButtons.swift */; };
+		8B7223FD2B9CD90A00983FE4 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7223FC2B9CD90A00983FE4 /* AuthButton.swift */; };
+		8B7224002B9CE48300983FE4 /* HouseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7223FF2B9CE48300983FE4 /* HouseModel.swift */; };
 		8BF96F372B9BD7F1003B1F5A /* Real_Estate_App_UiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF96F362B9BD7F1003B1F5A /* Real_Estate_App_UiApp.swift */; };
-		8BF96F392B9BD7F1003B1F5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF96F382B9BD7F1003B1F5A /* ContentView.swift */; };
+		8BF96F392B9BD7F1003B1F5A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF96F382B9BD7F1003B1F5A /* WelcomeView.swift */; };
 		8BF96F3B2B9BD7F6003B1F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF96F3A2B9BD7F6003B1F5A /* Assets.xcassets */; };
 		8BF96F3E2B9BD7F6003B1F5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF96F3D2B9BD7F6003B1F5A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B7223F52B9CA88D00983FE4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		8B7223F72B9CA89E00983FE4 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		8B7223FA2B9CD1F300983FE4 /* SocialButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialButtons.swift; sourceTree = "<group>"; };
+		8B7223FC2B9CD90A00983FE4 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		8B7223FF2B9CE48300983FE4 /* HouseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseModel.swift; sourceTree = "<group>"; };
 		8BF96F332B9BD7F1003B1F5A /* Real Estate App Ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Real Estate App Ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF96F362B9BD7F1003B1F5A /* Real_Estate_App_UiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Real_Estate_App_UiApp.swift; sourceTree = "<group>"; };
-		8BF96F382B9BD7F1003B1F5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BF96F382B9BD7F1003B1F5A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		8BF96F3A2B9BD7F6003B1F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BF96F3D2B9BD7F6003B1F5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +42,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B7223F92B9CD1D600983FE4 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				8B7223FA2B9CD1F300983FE4 /* SocialButtons.swift */,
+				8B7223FC2B9CD90A00983FE4 /* AuthButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		8B7223FE2B9CE46C00983FE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B7223FF2B9CE48300983FE4 /* HouseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8BF96F2A2B9BD7F1003B1F5A = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +78,9 @@
 		8BF96F352B9BD7F1003B1F5A /* Real Estate App Ui */ = {
 			isa = PBXGroup;
 			children = (
-				8BF96F362B9BD7F1003B1F5A /* Real_Estate_App_UiApp.swift */,
-				8BF96F382B9BD7F1003B1F5A /* ContentView.swift */,
+				8B7223FE2B9CE46C00983FE4 /* Model */,
+				8BF96F452B9BD8EA003B1F5A /* App */,
+				8BF96F442B9BD8E0003B1F5A /* View */,
 				8BF96F3A2B9BD7F6003B1F5A /* Assets.xcassets */,
 				8BF96F3C2B9BD7F6003B1F5A /* Preview Content */,
 			);
@@ -65,6 +93,41 @@
 				8BF96F3D2B9BD7F6003B1F5A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BF96F442B9BD8E0003B1F5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BF96F472B9BD94D003B1F5A /* Widgets */,
+				8BF96F462B9BD902003B1F5A /* Screens */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BF96F452B9BD8EA003B1F5A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8BF96F362B9BD7F1003B1F5A /* Real_Estate_App_UiApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8BF96F462B9BD902003B1F5A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8BF96F382B9BD7F1003B1F5A /* WelcomeView.swift */,
+				8B7223F52B9CA88D00983FE4 /* DashboardView.swift */,
+				8B7223F72B9CA89E00983FE4 /* DetailsView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8BF96F472B9BD94D003B1F5A /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				8B7223F92B9CD1D600983FE4 /* Buttons */,
+			);
+			path = Widgets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +200,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF96F392B9BD7F1003B1F5A /* ContentView.swift in Sources */,
+				8BF96F392B9BD7F1003B1F5A /* WelcomeView.swift in Sources */,
+				8B7223FD2B9CD90A00983FE4 /* AuthButton.swift in Sources */,
+				8B7223FB2B9CD1F300983FE4 /* SocialButtons.swift in Sources */,
+				8B7223F82B9CA89E00983FE4 /* DetailsView.swift in Sources */,
+				8B7223F62B9CA88D00983FE4 /* DashboardView.swift in Sources */,
+				8B7224002B9CE48300983FE4 /* HouseModel.swift in Sources */,
 				8BF96F372B9BD7F1003B1F5A /* Real_Estate_App_UiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
